@@ -13,7 +13,7 @@ public class Facade {
         String estado = CepApi.getInstancia().recuperarEstado(cep);
 
         CrmService.gravarCliente(nome, cep, cidade, estado);
-    }
+    }//testeta
 
 }
 
